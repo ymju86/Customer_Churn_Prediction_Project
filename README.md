@@ -1,5 +1,5 @@
 # Telco Customer Churn Project
-
+Data: https://www.kaggle.com/blastchar/telco-customer-churn
 - pandas, numpy, matplotlib, seaborn, plotly, sklearn, xgboost
 
 Develop a Churn Prediction model:
