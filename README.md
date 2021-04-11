@@ -36,31 +36,36 @@ Data fall under two categories:
 ![alt text](images/phone.png)
 ![alt text](images/multiple_lines.png)
 ![alt text](images/internet.png)
+
 This chart reveals customers who have Fiber optic as Internet Service are more likely to churn.
 ![alt text](images/online_security.png)
 ![alt text](images/online_backup.png)
 ![alt text](images/device_protection.png)
 ![alt text](images/tech_support.png)
+
 Customers don’t use Tech Support are more like to churn (~25% difference).
 ![alt text](images/Streaming_TV.png)
 ![alt text](images/Streaming_Movies.png)
 ![alt text](images/contract.png)
 ![alt text](images/Paperless.png)
 ![alt text](images/payment_methods.png)
+
 Automating the payment makes the customer more likely to retain in your platform (~30% difference).
 
 ### Numerical features
 
 #### Feature Engineering for Numerical columns
 
-1. Using Elbow Method to identify the appropriate number of clusters
-2. Applying K-means logic to the selected column and change the naming
+1. Use Elbow Method to identify the appropriate number of clusters
+2. Apply K-means logic to the selected column and change the naming
 3. Observe the profile of clusters
 
 ![alt text](images/tenure_based_churn_rate.png)
+
 Super apparent that the higher tenure means lower Churn Rate.
 
 ![alt text](images/Elbow_method.png)
+
 The appropriate number of clusters is 3 by Elbow Method
 
 ![alt text](images/tenure_cluster_vs_churn_rate.png)
